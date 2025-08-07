@@ -1,0 +1,14 @@
+default:
+  email_delivery:
+    delivery_method: :smtp
+    smtp_settings:
+      ssl: true
+      address: "mail.example.com"
+      port: 465
+      domain: "example.com"
+      authentication: :plain
+      user_name: "user@example.com"
+      password: "password"
+
+production:
+  rails_queue_adapter: sidekiq
