@@ -1,4 +1,4 @@
-This is a fully functional Redmine Ticketing Docker setup that uses Sidekiq as the default, production-grade, event and mailer handlers.
+This is a fully functional Redmine Ticketing Docker setup that uses Sidekiq as the default, production-grade, event and mailer handler.
 
 ## **Instructions**
 - Pull the repo
