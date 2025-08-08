@@ -2,6 +2,11 @@ This is a fully functional Redmine Ticketing Docker setup that uses Sidekiq as t
 
 ## **Instructions**
 - Pull the repo
+- `cd` into the main project folder
+- Create the persistent volumes:
+  - `mkdir -p redmine_persistent/redmine_data`
+  - `mkdir -p redmine_persistent/postgres_data`
+  - `mkdir -p redmine_persistent/redis_data`
 - Adjust **docker-compose.yml** by setting your own:
   - Optional `HOST_IP`, then required `HOST_PORT`
   - `REDMINE_DB_PASSWORD` with a strong password
