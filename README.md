@@ -1,3 +1,5 @@
+Redmine project website: https://www.redmine.org/
+
 This is a fully functional Redmine Ticketing Docker setup that uses Sidekiq as the default, production-grade, event and mailer handler.
 
 ## **Instructions**
